@@ -40,6 +40,18 @@ Route::get('tipsntrik', function () {
 Route::get('perlengkapan', function () {
     return view('perlengkapan');
 });
-
-
-
+Route::get('merawat', function () {
+    return view('merawat');
+});
+Route::get('menghias', function () {
+    return view('menghias');
+});
+Route::get('kerajinan', function () {
+    return view('kerajinan');
+});
+Route::get('siram', function () {
+    return view('siram');
+});
+Route::get('aksesoris', function () {
+    return view('aksesoris');
+});
